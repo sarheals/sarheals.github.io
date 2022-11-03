@@ -1,0 +1,362 @@
+body{
+
+    background-color: #ffffff;
+    color: black;
+
+font-family: nitti-typewriter-normal,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x : hidden !important;
+  }
+
+ .intro{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+ }
+
+ #home{
+  text-align: center;
+  font-size: 1.2em;
+ }
+
+ #me{
+    font-size: 4em;
+   margin-top: 5%;
+    font-family: moonblossom,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 80px; 
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+
+    
+    
+ }
+
+ .sarah2{
+    margin-left: 63%;
+    margin-top: -25%;
+    margin-right: -10%;
+ }
+h3{
+    background-color: black;
+    height: 2px;
+}
+
+#rssBlock{
+    left:0px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    margin-top: -5%;
+    overflow: hidden;
+  }
+  
+  /*remove p*/
+  .cnnContents {
+    width:100%;
+   
+    margin:0 auto;
+    font-size: 30px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: nitti-typewriter-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+  }
+  
+  .marqueeStyle2 {
+    display:inline-block;
+    /* Apply animation to this element */
+    -webkit-animation: scrolling-left2 22s linear infinite;
+    animation: scrolling-left2 20s linear infinite;
+    animation-delay: 10s;
+  }
+  /* scrolling-left is continuous/repeatly text */
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+  @keyframes scrolling-left2 {
+      0% {transform: translateX(0%);
+          -webkit-transform: translateX(0%);}
+        100% {transform: translateX(-200%);
+            -webkit-transform: translateX(-200%);}
+  }
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }
+  @-webkit-keyframes scrolling-left2 {
+      0% {-webkit-transform: translateX(0%);}
+        100% {-webkit-transform: translateX(-200%);}
+  }
+  
+  
+  
+h1{
+   
+    
+    color:black;
+    margin-right: 10%;
+    margin-left: 10%;
+   background-color: red;
+    font-family: moonblossom,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+   
+  }
+
+h2{
+    background-color: black;
+    height: 2px;
+}
+
+
+
+
+#menu{
+  position: fixed;
+  top: 0;
+  left: 30%;
+    display: flex;
+   color: red;
+    justify-content: space-between;
+    padding-left: 10%;
+   padding-right: 10%;
+    font-size: 1.5em;
+    margin-bottom: 20%;
+
+}
+
+
+
+
+
+#work1{
+   
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-left: 10%;
+   
+   padding-right: 5%;
+   align-content: center;
+   font-family: nitti-typewriter-normal,sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.work6{
+    background-color: black;
+    color: #ffffff;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: nitti-typewriter-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.work3{
+    background-color: black;
+    color: #ffffff;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: nitti-typewriter-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.work4{
+    background-color: white;
+    color: black;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-right: 5%;
+    font-family: nitti-typewriter-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.work5{
+    background-color: white;
+    color: black;
+   text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+   justify-content: space-around;
+  
+   font-family: nitti-typewriter-normal,sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   padding-left: 5%;
+  
+  }
+
+  .description5{
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: left;
+    font-family: nitti-typewriter-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title5{
+    margin-top: 10%;
+    padding-left: 10%;
+  }
+
+.work8{
+    background-color: white;
+    color: black;
+    
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: nitti-typewriter-normal,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.description8{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.title8{
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.work2{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: 15%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: nitti-typewriter-normal,sans-serif;
+font-weight: 400;
+font-style: normal;
+justify-content: space-around;
+}
+
+.description2{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.work9{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: nitti-typewriter-normal,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+#About{
+
+    height: 800px;
+    background-color: black;
+    color: #ffffff;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    font-size: 1.2em;
+    font-family: nitti-typewriter-normal,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.allwork{
+    background-color: black;
+}
+
+#contact{
+
+    height: 800px;
+    background-color: red;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 5%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration:solid;
+    font-family: maxular, serif;
+font-style: normal;
+font-weight: 200;
+-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+    
+  }
+
+  a:hover {
+    font-size: 2em;
+    
+    font-family: maxular, serif;
+font-style: normal;
+font-weight: 200;
+  }
+
+  #grid{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ 
+
+
+
